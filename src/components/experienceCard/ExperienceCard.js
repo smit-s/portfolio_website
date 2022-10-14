@@ -38,6 +38,12 @@ class ExperienceCard extends Component {
                   {experience["company"]}
                 </a>
               </p>
+              <p
+                className="experience-card-company"
+                style={{ color: theme.text }}
+              >
+               Technologies used: {experience["technologies"]}
+              </p>
             </div>
             <div className="experience-card-heading-right">
               <p
@@ -53,6 +59,7 @@ class ExperienceCard extends Component {
                 {experience["location"]}
               </p>
             </div>
+            
           </div>
           <p
             className="experience-card-description"

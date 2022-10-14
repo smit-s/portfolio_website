@@ -294,6 +294,7 @@ const experience = {
           logo_path: "opshub.png",
           duration: "Jan 2020 - May 2020",
           location: "Ahmedabad, Gujarat",
+          technologies: "Java, MySQL, XML, Git, TestNG, Junit.",
           description:
             "Worked as a member of Scrum team. Responsibilities include analysis, planning, design and implementation of features, bugs and patches as a part of software development lifecycle of the product, Opshub integration manager.\n Solved more than 90 bugs, problems and patches. Delivered more than 9 features like development of connectors and addition of functionalilty to exisitng connectors for prominent customers and automation framework.\n  Developed processing pipeline to fetch and process requirement and test work-items of Windchill RV&S.\n Developed API to migrate Jira R4J requirements  and synchronize to another end system.\n Implemented data poller class for ServiceNow which fetches data using a custom Iterator from service now in chunks reducing the time to poll and process data. Worked as technical support engineer for customers like UPS global and Mass General Brigham.",
           color: "#ee3c26",
@@ -310,6 +311,7 @@ const experience = {
           logo_path: "opshub.png",
           duration: "Jan 2020 - May 2020",
           location: "Ahmedabad, Gujarat",
+          technologies: "Java, MySQL, XML, Git, TestNG, Junit.",
           description:
             "Implemented API to synchronize requirement links to and from Windchill RV&S with other ALMs using OIM. Improved Opshub integration manager’s automation framework by adding more unit test cases for testing migration of links and solving bugs in adapters of ALMs and Devops tools like ServiceNow, Windchill RV&S, Azure Devops etc.",
           color: "#ee3c26",
@@ -321,6 +323,7 @@ const experience = {
           logo_path: "Capgemini.png",
           duration: "June 2019 - August 2019",
           location: "Gandhinagar, Gujarat",
+          technologies: "Python, Keras, Matplotlib, Pandas, nltk.",
           description:
             "Created a semantic search tool for clustering and visualization of documents using Elmo (bidirectional LSTM architecture) in Python. This search tool helps users analyze test-cases by finding redundant steps and combining test cases. This tool helped identify and reduce approximately 9% of redundant test case steps.",
           color: "#fc1f20",
