@@ -8,8 +8,8 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Smit's Portfolio",
-  description:"",
-    // "A passionate individual who always thrives to work on products which develop sustainable and scalable social and technical systems to create impact.",
+  description: "",
+  // "A passionate individual who always thrives to work on products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Smit Sanghavi Portfolio",
     type: "website",
@@ -22,17 +22,15 @@ const greeting = {
   title: "Smit Sanghavi",
   logo_name: "Smit Sanghavi",
   nickname: "",
-  subTitle:"",
-    // "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  subTitle: "",
+  // "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/10Gyu8RmTBUFvtqxeAkavIbhswXWp_dhr/view?usp=sharing",
+    "https://drive.google.com/file/d/1OkgUUzL4cQG45_PLmzHM2tvvRDZtOYfX/view?usp=sharing",
   portfolio_repository: "https://github.com/smit-s/smit-s.github.io",
   githubProfile: "https://github.com/smit-s",
 };
 
 const socialMediaLinks = [
-  
-
   {
     name: "Github",
     link: "https://github.com/smit-s",
@@ -61,7 +59,7 @@ const skills = {
       skills: [
         "⚡ Developing web applications using Spring boot.",
         "⚡ Building responsive website front end using React.",
-        "⚡ Developing mobile applications using Flutter.",
+        "⚡ Developing BI server backend in C++.",
         "⚡ Creating application backend in Node and Express.",
       ],
       softwareSkills: [
@@ -114,7 +112,7 @@ const skills = {
           style: {
             color: "#CB3837",
           },
-        },        
+        },
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -166,14 +164,12 @@ const skills = {
         },
       ],
     },
-    
   ],
 };
 
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    
     {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
@@ -213,7 +209,8 @@ const competitiveSites = {
         color: "#000000",
       },
       profileLink: "https://www.stopstalk.com/user/profile/smit_s",
-    },{
+    },
+    {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
@@ -267,12 +264,10 @@ const certifications = {
       title: "Algorithms",
       subtitle: "- Codechef",
       logo_path: "codechef.png",
-      certificate_link:
-        "https://www.codechef.com/certificates/preview/829ad5b",
+      certificate_link: "https://www.codechef.com/certificates/preview/829ad5b",
       alt_name: "Codecehf",
       color_code: "#0C9D5899",
     },
-    
   ],
 };
 
@@ -287,6 +282,19 @@ const experience = {
     {
       title: "Work",
       experiences: [
+        {
+          title: "Member of Technical Staff",
+          company: "Oracle inc.",
+          company_url: "https://www.oracle.com/",
+          logo_path: "oracle.png",
+          duration: "June 2024 - Present",
+          location: "Redwood shores, California",
+          technologies:
+            "C++, STL, Perl, Jenkins, Oracle DB, OCI, Python, Java, Ant",
+          description:
+            "Designed, implemented, and enhanced key features, and resolved critical bugs, as a Member of Technical Staff on the Oracle BI Server team. Implemented features such as adding support for new data types in data flows and introducing new fields, including end-to-end feature design and development.",
+          color: "#ee3c26",
+        },
         {
           title: "Software engineer",
           company: "Opshub inc.",
@@ -304,6 +312,18 @@ const experience = {
     {
       title: "Internships",
       experiences: [
+        {
+          title: "Software engineering  Intern",
+          company: "Oracle inc.",
+          company_url: "https://www.oracle.com/",
+          logo_path: "oracle.png",
+          duration: "June 2023 - August 2023",
+          location: "Redwood shores, California",
+          technologies: "C++, STL, Perl, Jenkins, Oracle DB",
+          description:
+            "Successfully completed the migration of the performance preflight server, used to run automated tests to check performance of Oracle’s BI Server.",
+          color: "#ee3c26",
+        },
         {
           title: "Software engineering  Intern",
           company: "Opshub inc.",
@@ -344,7 +364,7 @@ const experience = {
             "Working as mentor, teaching board games like chess to underprivileged students at Rotary club and volunteer at Polio vaccination camp of rotary club.",
           color: "#4285F4",
         },
-              ],
+      ],
     },
   ],
 };
@@ -359,8 +379,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description:
-    "Here are a few publications I contributed to.",
+  description: "Here are a few publications I contributed to.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -368,21 +387,22 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Machine Learning Based Lens-Free Shadow Imaging Technique for Field-Portable Cytometry      ",
+      name:
+        "Machine Learning Based Lens-Free Shadow Imaging Technique for Field-Portable Cytometry      ",
       createdAt: "27 February 2022",
-      description: "Machine Learning Based Lens-Free Shadow Imaging Technique for Field-Portable Cytometry",
-      url:
-        "https://www.mdpi.com/2079-6374/12/3/144/htm",
+      description:
+        "Machine Learning Based Lens-Free Shadow Imaging Technique for Field-Portable Cytometry",
+      url: "https://www.mdpi.com/2079-6374/12/3/144/htm",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "ANNSESDIHM: An Artificial Neural Networkbased Signal Enhancement Scheme for Digital Inline Holography (DIH) Microscope",
+      name:
+        "ANNSESDIHM: An Artificial Neural Networkbased Signal Enhancement Scheme for Digital Inline Holography (DIH) Microscope",
       createdAt: "1 November 2020",
-      description: "ANNSESDIHM: An Artificial Neural Network based Signal Enhancement Scheme for Digital Inline Holography (DIH) Microscope ",
-      url:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9374319",
+      description:
+        "ANNSESDIHM: An Artificial Neural Network based Signal Enhancement Scheme for Digital Inline Holography (DIH) Microscope ",
+      url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9374319",
     },
-    
   ],
 };
 
@@ -391,14 +411,12 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "animated_smit.jpg",
-    description:
-      "",
+    description: "",
   },
 
   addressSection: {
     title: "Address",
-    subtitle:
-      "700, Health Sciences Drive, Stony brook, NY, 11790",
+    subtitle: "700, Health Sciences Drive, Stony brook, NY, 11790",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/gGYqZXzXdgBCZ2xW8",
   },
