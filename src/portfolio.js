@@ -25,7 +25,7 @@ const greeting = {
   subTitle: "",
   // "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1X2S1eTsBmoUWpVBNjmvZZhi-waioO8Uo/view?usp=sharing",
+    "https://drive.google.com/file/d/1eLPoEUsNXX6osutjixgoSoPG5F4-EzoB/view?usp=sharing",
   portfolio_repository: "https://github.com/smit-s/smit-s.github.io",
   githubProfile: "https://github.com/smit-s",
 };
